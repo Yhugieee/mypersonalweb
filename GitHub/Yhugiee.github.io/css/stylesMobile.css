@@ -1,0 +1,40 @@
+header {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: black;
+	height: 250px;
+}
+
+body {
+        font-size: 40px;
+		background-color: black;
+		font-family: georgia, serif;
+		color: white;
+}
+
+header img {
+	margin: auto;
+	display: block;
+}
+
+nav {
+	padding: 1%;
+	margin-bottom: 3%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+nav li {
+	border-top: 1px solid white;	
+}
+nav a {
+	padding:2px;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+
+}

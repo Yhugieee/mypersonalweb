@@ -1,0 +1,165 @@
+body {
+	background-color: #254E58;
+	color: white;
+	font-family: georgia, serif;
+}
+header {
+	float:left;
+	width:25%;
+}
+//*.logo{
+	color:#6E6658;
+	font-size:5.3rem;
+	font-weight:bold;
+	font-style:italic;
+	padding: 3 2rem;
+}
+*//
+
+nav {
+	float: right;
+	width:70%;
+	margin:35px 0 0 0;
+	background-color: #254E58;
+	padding:30px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+nav li {
+		display: inline;
+}
+
+nav a {
+	padding:20px;
+	color: white;
+	text-decoration: none;
+	
+}
+nav a:hover{
+	background:#254E58;
+	color:black;
+}
+
+.btn{
+	padding: 1rem 2rem;
+	font-size:1rem;
+	color:white;
+	background-color:#88BDBC;
+	border-radius:50px;
+	cursor:pointer;
+	transition:all 0.3s ease;
+}
+.btn:hover {
+	background:#4F4A41;
+	color:white;
+	
+}
+#me{
+	margin-left:5%;
+	margin-top:6%	
+	
+}
+#me span{
+	color:black;
+}
+
+
+main {
+	clear: left;
+}
+
+
+#white {
+	
+/*background-image:url(../images/gg.jpg);
+	width: 95%;
+	margin: auto;
+	clear: right;
+	color:black;
+	
+	
+}*/
+
+
+
+#grid {
+	background-color:#88BDBC;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-top: 50px;
+	width: 100%;
+}
+#grid img{
+	width:100%;
+}
+.item{
+	width:90.33%;
+	height:150.33%;
+	-webkit-mask-repeat: no-repeat;
+}
+/*.item img{
+		width:100%; */
+}
+
+#b {
+	
+	display: grid;
+	grid-template-columns: auto  auto ;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-top: 50px;
+	width: 100%;
+	
+	
+}
+.borderedimage {
+	
+	border: 3px solid black;
+
+	padding: 10px;
+
+	margin: auto;
+	color:black;
+	text-decoration: none;
+}
+
+#textColumn {
+	float: right;
+	width: 45%;
+	margin: 1%;
+}
+#schoolColumn {
+	float: left;
+	width: 45%;
+	margin: 1%;
+}
+#picColumn {
+	float: right;
+	width: 45%;
+	margin: 1%;
+}
+#contactColumn {
+	float: left;
+	width: 45%;
+	margin: 1%;
+}
+
+	
+
+footer {
+	clear: both;
+	text-align: center;
+	color: white;
+}
+#exColumn {
+	float: left;
+	width: 45%;
+	margin: 1%;
+}
